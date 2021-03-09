@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nameedittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        app:layout_constraintStart_toEndOf="@+id/fnametxtview"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill"
+        tools:text="Name" />
+
+    <EditText
+        android:id="@+id/ageedittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="Age"
+        app:layout_constraintStart_toEndOf="@+id/lnametxtview"
+        app:layout_constraintTop_toBottomOf="@+id/nameedittxt"
+        tools:ignore="Autofill"
+        tools:text="Age" />
+
+    <EditText
+        android:id="@+id/dobedittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="DOB"
+        android:inputType="date"
+        android:text="DOB"
+        app:layout_constraintStart_toEndOf="@+id/emailtxtview"
+        app:layout_constraintTop_toBottomOf="@+id/genderedittxt"
+        tools:ignore="Autofill"
+        tools:text="DOB" />
+
+    <EditText
+        android:id="@+id/unameedittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="UName"
+        android:inputType="text"
+        android:text="UName"
+        tools:ignore="Autofill"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="325dp"
+        tools:text="UName" />
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/Register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phonetxtview"
+        tools:text="@string/Register" />
+
+    <TextView
+        android:id="@+id/fnametxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="40dp"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/lnametxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="61dp"
+        android:text="AGE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fnametxtview"
+        tools:text="AGE" />
+
+    <TextView
+        android:id="@+id/passtxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="213dp"
+        tools:text="Gender" />
+
+    <TextView
+        android:id="@+id/emailtxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="48dp"
+        android:text="DOB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passtxtview"
+        tools:text="DOB" />
+
+    <TextView
+        android:id="@+id/phonetxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UName"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="351dp"
+        tools:text="UName" />
+
+    <EditText
+        android:id="@+id/genderedittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="text"
+        android:singleLine="true"
+        android:text="Gender"
+        app:layout_constraintStart_toEndOf="@+id/passtxtview"
+        app:layout_constraintTop_toBottomOf="@+id/ageedittxt"
+        tools:ignore="Autofill"
+        tools:text="Gender" />
+
+    <Button
+        android:id="@+id/btnlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="136dp"
+        android:text="@string/Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.035"
+        app:layout_constraintStart_toEndOf="@+id/regbtn"
+        app:layout_constraintTop_toBottomOf="@+id/unameedittxt"
+        tools:text="@string/Login" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Password"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="417dp"
+        tools:text="Password" />
+
+    <EditText
+        android:id="@+id/passedittxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:text="@string/Password"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="409dp"
+        tools:text="Password" />
+</android.support.constraint.ConstraintLayout>
+
+    

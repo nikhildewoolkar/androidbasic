@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Database 51</string>
+    <string name="Password">Password</string>
+    <string name="FName">FName</string>
+    <string name="LName">LName</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Phone">Phone</string>
+    <string name="Email">Email</string>
+</resources>

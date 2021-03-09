@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginDatabase</string>
+    <string name="FName">FName</string>
+    <string name="LName">LName</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Phone">Phone</string>
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+</resources>
